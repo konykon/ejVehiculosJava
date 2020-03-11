@@ -3,7 +3,7 @@ package com.vehicles.project;
 import java.util.List;
 
 public class Car extends Vehicle {
-
+	
 	public Car(String plate, String brand, String color) {
 		super(plate, brand, color);
 	}
@@ -26,10 +26,7 @@ public class Car extends Vehicle {
 		this.wheels.add(leftWheel);
 		this.wheels.add(rightWheel);
 	}
-
-	@Override
-	public String toString() {
-		return "Car [plate=" + plate + ", brand=" + brand + ", color=" + color + ", wheels=" + wheels + "]";
-	}
-
+	
+	
+	
 }
